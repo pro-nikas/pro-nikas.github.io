@@ -1,41 +1,55 @@
-a{
-    background: #000;
+body{
+    background: #e6e6e6;
+}
+#header{
+    min-height: 80px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    /*width: auto;*/
-    width: 300px;
-    height: 200px;
-    background: url("https://img2.goodfon.ru/wallpaper/nbig/1/3c/zakat-solnce-nebo-pticy-more.jpg");
-    text-decoration: none;
-    background-size: cover;
+    background: rgba(255,255,255,1);
+    position: fixed;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
 }
-a::before{
-    content: "";
-    width: 300px;
-    height: 200px;
-    background: #000;
-    position: absolute;
+.header_container{
+    max-width: 1140px;
+    width: 100%;
+    background: rgba(235,235,235,1);
     display: flex;
-    opacity: .3;
-    transition: .3s;
-    z-index: 10;
+    align-items: center;
+    justify-content: space-between;
 }
-a:hover::before{
-    opacity: .7;
-    transition: .3s;
+.logo_link{
+    font-family: 'Poppins';
+    font-size: 24px;
 }
-h1{
-    color: #fff;
-    z-index: 20;
-    opacity: 0;
-    transition: .3s;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: "Open Sans";
+.navigation{
+    font-family: 'Rubik';
+
 }
-a:hover>h1{
-    opacity: 1;
-    transition: .3s;
+.navigation>li>a{
+    margin: 0 0 0 20px;
+    color: #333;
+}
+.navigation>li>a:hover{
+    color: #50c3dc;
+}
+
+
+
+@media screen and (max-width: 720px){
+    body{
+        background: #fff;
+    }
+    #header{
+        min-height: 100px;
+    }
+    .header_container{
+        padding: 0 20px 0 20px;
+    }
+    .logo_link{
+        font-size: 44px;
+    }
+    .navigation{
+        display: none;
+    }
 }
