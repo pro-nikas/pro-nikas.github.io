@@ -4,16 +4,17 @@ var sideMenu = document.getElementById('side_menu');
 console.log(sideMenuLink);
 console.log(sideMenu);
 
-var linkLine1 = document.getElementsByClassName('menu_link_line_st')[0];
-var linkLine2 = document.getElementsByClassName('menu_link_line_nd')[0];
-var sideMenu = document.getElementById('side_menu');
-var menuLink = document.getElementsByClassName('side_menu_link')[0];
-var menuLinkWidth = menuLink.offsetWidth + 'px';
 
 
 
 function sideMenuTweak () {
 
+    var linkLine1 = document.getElementsByClassName('menu_link_line_st')[0];
+    var linkLine2 = document.getElementsByClassName('menu_link_line_nd')[0];
+    var sideMenu = document.getElementById('side_menu');
+    var menuLink = document.getElementsByClassName('side_menu_link')[0];
+    var menuLinkWidth = menuLink.offsetWidth + 'px';
+    console.log(menuLinkWidth);
 
     if (sideMenu.style.right != menuLinkWidth){
         sideMenu.style.right = menuLinkWidth;
