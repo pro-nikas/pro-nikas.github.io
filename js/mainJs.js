@@ -14,7 +14,7 @@ function sideMenuTweak () {
     var sideMenu = document.getElementById('side_menu');
     var menuLink = document.getElementsByClassName('side_menu_link')[0];
     var menuLinkWidth = menuLink.offsetWidth + 'px';
-    console.log(menuLinkWidth);
+    alert(menuLinkWidth);
 
     if (sideMenu.style.right != menuLinkWidth){
         sideMenu.style.right = menuLinkWidth;
