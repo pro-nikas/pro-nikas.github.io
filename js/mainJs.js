@@ -18,13 +18,13 @@ function sideMenuTweak () {
 
     if (sideMenu.style.right != menuLinkWidth){
         sideMenu.style.right = menuLinkWidth;
-        sideMenu.style.boxShadow = '0 0 10px 0';
+        // sideMenu.style.boxShadow = '0 0 10px 0';
         linkLine1.classList.add('menu_link_rotated_st');
         linkLine2.classList.add('menu_link_rotated_nd');
     }
     else{
         sideMenu.style.right = '100%';
-        sideMenu.style.boxShadow = '0 0 0 0';
+        // sideMenu.style.boxShadow = '0 0 0 0';
         linkLine1.classList.remove('menu_link_rotated_st');
         linkLine2.classList.remove('menu_link_rotated_nd');
     }
@@ -34,5 +34,5 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
     var dpt = window.devicePixelRatio;
     var widthM = window.screen.width * dpt;
     var widthH = window.screen.height * dpt;
-    document.write('<meta name="viewport" content="width=' + widthM+ ', user-scalable=no, height=' + widthH + '">');
+    document.write('<meta name="viewport" content="width=' + widthM+ ', height=' + widthH + '">');
 };
