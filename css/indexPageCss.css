@@ -39,20 +39,7 @@ body{
     display: none;
 }
 
-@media screen and (max-width: 720px){
-
-    #side_menu{
-        width: calc(100% - 100px);
-        height: 100%;
-        background: #28a745;
-        position: fixed;
-        right: 100%;
-        transition: .5s ease-in-out;
-        box-shadow: 0 0 0 0;
-        z-index: 100;
-        overflow: hidden;
-        display: flex;
-    }
+@media screen and (min-width: 720px) and (max-width: 1079px) and (orientation: portrait){
 
     body{
         background: #fff;
@@ -73,7 +60,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 24px;
+        /*font-size: 24px;*/
         flex-direction: column;
         height: 100px;
         min-width: 100px;
@@ -84,7 +71,7 @@ body{
         width: 60%;
         height: 5%;
         margin: 10px 0;
-        transition: .5s;
+        transition: .5s ease-in-out;
     }
     .menu_link_rotated_st{
         transform: translateY(12.5px) rotate(45deg);
@@ -92,10 +79,74 @@ body{
     .menu_link_rotated_nd{
         transform: translateY(-12.5px) rotate(-45deg);
     }
+    #side_menu{
+        width: calc(100% - 100px);
+        height: 100%;
+        background: #28a745;
+        position: fixed;
+        right: 100%;
+        transition: .5s ease-in-out;
+        box-shadow: 0 0 0 0;
+        z-index: 100;
+        overflow: hidden;
+        display: flex;
+    }
 }
 
 
+@media screen and (min-width: 1080px) and (orientation: portrait){
 
+    body{
+        background: #fff;
+    }
+    #header{
+        min-height: 150px;
+    }
+    .header_container{
+        padding: 0 0 0 35px;
+    }
+    .logo_link{
+        font-size: 66px;
+    }
+    .navigation{
+        display: none;
+    }
+    .side_menu_link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*font-size: 24px;*/
+        flex-direction: column;
+        height: 150px;
+        min-width: 150px;
+        background: #88b3ff;
+    }
+    .menu_link_line{
+        background: #000000;
+        width: 60%;
+        height: 5%;
+        margin: 15px 0;
+        transition: .5s ease-in-out;
+    }
+    .menu_link_rotated_st{
+        transform: translateY(18.75px) rotate(45deg);
+    }
+    .menu_link_rotated_nd{
+        transform: translateY(-17.75px) rotate(-45deg);
+    }
+    #side_menu{
+        width: calc(100% - 150px);
+        height: 100%;
+        background: #28a745;
+        position: fixed;
+        right: 100%;
+        transition: .5s ease-in-out;
+        box-shadow: 0 0 0 0;
+        z-index: 100;
+        overflow: hidden;
+        display: flex;
+    }
+}
 
 
 
