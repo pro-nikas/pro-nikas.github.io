@@ -55,14 +55,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2043" />
+          <entry key="css" value="2100" />
           <entry key="html" value="874" />
           <entry key="js" value="381" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2043" />
+          <entry key="CSS" value="2100" />
           <entry key="HTML" value="874" />
           <entry key="JavaScript" value="381" />
         </counts>
@@ -99,8 +99,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/indexPageCss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="492">
+              <caret line="437" column="21" selection-start-line="437" selection-start-column="21" selection-end-line="437" selection-end-column="21" />
+              <folding>
+                <element signature="e#2615#3893#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,12 +206,12 @@
       <workItem from="1547487598428" duration="3995000" />
       <workItem from="1547657850859" duration="4767000" />
       <workItem from="1547744026762" duration="914000" />
-      <workItem from="1547744980109" duration="4426000" />
+      <workItem from="1547744980109" duration="5062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22840000" />
+    <option name="totallyTimeSpent" value="23476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -269,8 +272,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/indexPageCss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="492">
+          <caret line="437" column="21" selection-start-line="437" selection-start-column="21" selection-end-line="437" selection-end-column="21" />
+          <folding>
+            <element signature="e#2615#3893#0" />
+          </folding>
         </state>
       </provider>
     </entry>
