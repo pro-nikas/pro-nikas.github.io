@@ -17,3 +17,11 @@ ul{
     margin: 0;
     padding: 0;
 }
+::selection{
+    background: #50c3dc;
+    color: #000;
+}
+h1, p{
+    margin: 0;
+    padding: 0;
+}

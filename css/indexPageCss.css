@@ -1,5 +1,6 @@
 body{
-    background: #e6e6e6;
+    background: #f0f0f0;
+    height: 4000px;
 }
 #header{
     min-height: 80px;
@@ -41,6 +42,105 @@ body{
 }
 #side_menu{
     display: none;
+}
+
+/*контент*/
+#content{
+    padding: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information_container{
+    max-width: 1140px;
+    width: 100%;
+    min-height: 430px;
+    height: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);*/
+
+}
+.information_main_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100%;*/
+    min-height: 430px;
+    max-width: 350px;
+    width: 100%;
+    /*background: #ffffff;*/
+}
+.main_pic{
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: url("../imgs/main_pic.png");
+    background-size: cover;
+    /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);;*/
+    /*background: #50c3dc;*/
+}
+.information_main_text{
+    max-width: 790px;
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /*margin: 100px 0 0 0;*/
+}
+.main_headline{
+    font-family: "Comfortaa";
+    font-weight: 100;
+    margin: 0 0 20px 0;
+}
+.main_hr{
+    background: black;
+    width: 100%;
+    height: 6px;
+    width: 150px;
+    align-self: flex-start;
+    margin: 0;
+    /*padding: 0;*/
+    border: 0;
+    /*height: 20px;*/
+    background: #50c3dc;
+    border-radius: 2px;
+    margin: 0 0 20px 0;
+}
+.main_text{
+    font-family: "Comfortaa";
+    margin: 0 0 40px 0;
+}
+.social_links_nav{
+    font-size: 20px;
+}
+.social_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px 0 0;
+    width: 28px;
+    height: 28px;
+}
+.vk_link:hover{
+    color: #3c5c82;
+}
+.fb_link:hover {
+    color: #334d92;
+}
+.inst_link:hover{
+    color: #333;
+}
+.tlgrm_link:hover{
+    color: #2ca5e0;
+}
+.twtr_link:hover{
+    color: #35a3ea;
 }
 
 @media screen and (min-width: 720px) and (max-width: 1079px) and (orientation: portrait){
@@ -86,7 +186,7 @@ body{
     .menu_link_rotated_nd{
         transform: translateY(-12.5px) rotate(-45deg);
     }
-    #side_menu{
+    #side_menu {
         width: calc(100% - 100px);
         height: 100%;
         background: #28a745;
@@ -98,6 +198,111 @@ body{
         overflow: hidden;
         display: flex;
     }
+    /*контент*/
+    #content{
+        padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .information_container{
+        /*max-width: 1140px;*/
+        width: 100%;
+        min-height: 830px;
+        /*height: 100%;*/
+        background: #fafafa;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);*/
+
+    }
+    .information_main_pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*height: 100%;*/
+        min-height: 450px;
+        /*max-width: 350px;*/
+        min-width: 100%;
+        /*background: #ffffff;*/
+    }
+    .main_pic{
+        min-width: 350px;
+        min-height: 350px;
+        /*width: 100%;*/
+        /*height: 100%;*/
+        border-radius: 50%;
+        background: url("../imgs/main_pic.png");
+        background-size: cover;
+        /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);;*/
+        /*background: #50c3dc;*/
+    }
+    .information_main_text{
+        min-width: 100%;
+        /*width: 100%;*/
+        background: #fafafa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /*margin: 100px 0 0 0;*/
+    }
+    .main_headline{
+        font-family: "Comfortaa";
+        font-weight: 100;
+        margin: 0 0 40px 0;
+        font-size: 44px;
+        text-align: center;
+    }
+    .main_hr{
+        background: black;
+        width: 100%;
+        height: 10px;
+        width: 150px;
+        align-self: center;
+        margin: 0;
+        /*padding: 0;*/
+        border: 0;
+        /*height: 20px;*/
+        background: #50c3dc;
+        border-radius: 4px;
+        margin: 0 0 40px 0;
+    }
+    .main_text{
+        font-family: "Comfortaa";
+        margin: 0 0 40px 0;
+        font-size: 24px;
+        text-align: center;
+        max-width: 600px;
+    }
+    .social_links_nav{
+        font-size: 40px;
+    }
+    .social_link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px 0 10px;
+        width: 46px;
+        height: 46px;
+    }
+    .vk_link:hover{
+        color: #3c5c82;
+    }
+    .fb_link:hover {
+        color: #334d92;
+    }
+    .inst_link:hover{
+        color: #333;
+    }
+    .tlgrm_link:hover{
+        color: #2ca5e0;
+    }
+    .twtr_link:hover{
+        color: #35a3ea;
+    }
+
 }
 
 
