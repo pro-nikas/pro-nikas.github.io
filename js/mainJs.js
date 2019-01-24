@@ -33,6 +33,6 @@ function sideMenuTweak () {
 if (window.devicePixelRatio !== 1) { // Костыль для определения иных устройств, с коэффициентом отличным от 1
     var dpt = window.devicePixelRatio;
     var widthM = window.screen.width * dpt;
-    var widthH = window.screen.height * dpt;
+    // var widthH = window.screen.height * dpt;
     document.write('<meta name="viewport" content="device-width=' + widthM+ ', user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, device-height=' + widthH + '">');
 };
