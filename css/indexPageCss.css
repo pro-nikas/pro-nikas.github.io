@@ -266,7 +266,7 @@ body{
 @media screen and (min-width: 720px) and (max-width: 1079px) and (orientation: portrait){
 
     body{
-        background: #fff;
+        /*background: #fff;*/
     }
     #header{
         min-height: 100px;
@@ -275,7 +275,7 @@ body{
     }
     .header_container{
         padding: 0 0 0 20px;
-        max-width: 100%;
+        /*max-width: 100%;*/
     }
     .logo_link{
         font-size: 44px;
@@ -321,26 +321,26 @@ body{
     /*контент*/
     #content{
         padding: 100px 0 0 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
     }
     .information_container{
         /*max-width: 1140px;*/
-        width: 100%;
+        /*width: 100%;*/
         min-height: 830px;
         /*height: 100%;*/
-        background: #fafafa;
-        display: flex;
+        /*background: #fafafa;*/
+        /*display: flex;*/
         justify-content: flex-start;
         flex-direction: column;
         /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);*/
 
     }
     .information_main_pic{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
         /*height: 100%;*/
         min-height: 450px;
         /*max-width: 350px;*/
@@ -352,47 +352,47 @@ body{
         min-height: 350px;
         /*width: 100%;*/
         /*height: 100%;*/
-        border-radius: 50%;
-        background: url("../imgs/main_pic.png");
-        background-size: cover;
+        /*border-radius: 50%;*/
+        /*background: url("../imgs/main_pic.png");*/
+        /*background-size: cover;*/
         /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);;*/
         /*background: #50c3dc;*/
     }
     .information_main_text{
         min-width: 100%;
         /*width: 100%;*/
-        background: #fafafa;
-        display: flex;
-        justify-content: center;
+        /*background: #fafafa;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
         align-items: center;
-        flex-direction: column;
+        /*flex-direction: column;*/
         /*margin: 100px 0 0 0;*/
     }
     .main_headline{
-        font-family: "Comfortaa";
-        font-weight: 100;
+        /*font-family: "Comfortaa";*/
+        /*font-weight: 100;*/
         margin: 0 0 40px 0;
         font-size: 44px;
         text-align: center;
         max-width: 600px;
     }
     .main_hr{
-        background: black;
-        width: 100%;
+        /*background: black;*/
+        /*width: 100%;*/
         height: 10px;
-        width: 150px;
+        /*width: 150px;*/
         align-self: center;
-        margin: 0;
+        /*margin: 0;*/
         /*padding: 0;*/
         border: 0;
         /*height: 20px;*/
-        background: #50c3dc;
+        /*background: #50c3dc;*/
         border-radius: 4px;
         margin: 0 0 40px 0;
     }
     .main_text{
-        font-family: "Comfortaa";
-        margin: 0 0 40px 0;
+        /*font-family: "Comfortaa";*/
+        /*margin: 0 0 40px 0;*/
         font-size: 28px;
         text-align: center;
         max-width: 600px;
@@ -401,28 +401,28 @@ body{
         font-size: 40px;
     }
     .social_link{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
         margin: 0 10px 0 10px;
         width: 46px;
         height: 46px;
     }
-    .vk_link:hover{
-        color: #3c5c82;
-    }
-    .fb_link:hover {
-        color: #334d92;
-    }
-    .nvlp_link:hover{
-        color: #333;
-    }
-    .tlgrm_link:hover{
-        color: #2ca5e0;
-    }
-    .twtr_link:hover{
-        color: #35a3ea;
-    }
+    /*.vk_link:hover{*/
+        /*color: #3c5c82;*/
+    /*}*/
+    /*.fb_link:hover {*/
+        /*color: #334d92;*/
+    /*}*/
+    /*.nvlp_link:hover{*/
+        /*color: #333;*/
+    /*}*/
+    /*.tlgrm_link:hover{*/
+        /*color: #2ca5e0;*/
+    /*}*/
+    /*.twtr_link:hover{*/
+        /*color: #35a3ea;*/
+    /*}*/
     /*———————————————————————————————————————————*/
     /*контент с фотками*/
     .photos_container{
@@ -448,7 +448,7 @@ body{
         /*justify-content: space-between;*/
     }
     .photo_link{
-        margin: 0 0 10px 0;
+        margin: 0 0 2px 0;
         /*min-width: 270px;*/
         height: 540px;
         /*width: 100%;*/
