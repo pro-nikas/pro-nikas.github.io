@@ -450,7 +450,7 @@ body{
     .photo_link{
         margin: 0 0 20px 0;
         /*min-width: 270px;*/
-        height: 360px;
+        height: 540px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -470,7 +470,7 @@ body{
     .photo_link::before{
         content: "";
         width: 100%;
-        height: 360px;
+        height: 540px;
         position: absolute;
     }
     .photo_card_headline{
@@ -490,7 +490,7 @@ body{
         position: absolute;
         background: rgba(0, 0, 0, .5);
         /*min-width: 270px;*/
-        min-height: 360px;
+        min-height: 540px;
         width: 100%;
         display: flex;
         flex-direction: column;
