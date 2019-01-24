@@ -34,5 +34,5 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
     var dpt = window.devicePixelRatio;
     var widthM = window.screen.width * 1;
     var widthH = window.screen.height * dpt;
-    document.write('<meta name="viewport" content="device-width=' + widthM+ ', user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, device-height=' + widthH + '">');
+    document.write('<meta name="viewport" content="width=' + widthM+ ', user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, height=' + widthH + '">');
 };
