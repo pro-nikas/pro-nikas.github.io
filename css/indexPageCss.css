@@ -1,5 +1,5 @@
 body{
-    background: #f0f0f0;
+    background: #f5f5f5;
     height: 4000px;
 }
 #header{
@@ -7,14 +7,15 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background: rgba(255,255,255,1);
+    background: #fafafa;
     position: fixed;
     box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+    z-index: 90;
 }
 .header_container{
     max-width: 1140px;
     width: 100%;
-    background: rgba(255,255,255,1);
+    /*background: rgba(255,255,255,1);*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,6 +61,7 @@ body{
     display: flex;
     justify-content: space-between;
     /*box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);*/
+    border-bottom: 1px solid rgba(0,0,0,.1);
 
 }
 .information_main_pic{
@@ -86,7 +88,7 @@ body{
 .information_main_text{
     max-width: 790px;
     width: 100%;
-    background: #fafafa;
+    /*background: #fafafa;*/
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -133,7 +135,7 @@ body{
 .fb_link:hover {
     color: #334d92;
 }
-.inst_link:hover{
+.nvlp_link:hover{
     color: #333;
 }
 .tlgrm_link:hover{
@@ -141,6 +143,162 @@ body{
 }
 .twtr_link:hover{
     color: #35a3ea;
+}
+
+.photos_container{
+    background: #fefefe;
+    min-height: 470px;
+    width: 100%;
+    max-width: 1140px;
+}
+.photos_headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    /*text-align: center;*/
+    /*margin: 30px 0;*/
+    /*border-bottom: 1px solid rgba(0,0,0,.1);*/
+}
+.photos_headline>h2{
+    font-weight: 100;
+    font-family: "Comfortaa";
+}
+.first_photos_row{
+    /*padding: 0 0 20px 0;*/
+    /*min-height: 300px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_link{
+    min-width: 270px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+    cursor: default;
+}
+
+.first_photo_link{
+    background: #000;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*width: auto;*/
+    /*width: 300px;*/
+    /*opacity: .1;*/
+    /*height: 200px;*/
+    background: url("../imgs/nature-example.jpg");
+    /*text-decoration: none;*/
+    background-size: cover;
+}
+.photo_link::before{
+    content: "";
+    width: 270px;
+    height: 270px;
+    /*background: #000;*/
+    position: absolute;
+    /*display: flex;*/
+    /*opacity: .9;*/
+    /*transition: .3s;*/
+    /*z-index: 10;*/
+}
+.first_photo_link:hover::before{
+    /*opacity: .1;*/
+    /*transition: .3s;*/
+}
+.about_photo_link{
+    font-family: "Comfortaa";
+    /*font-size: 44px;*/
+    /*color: #000;*/
+    /*z-index: 20;*/
+    opacity: 0;
+    transition: .2s ease-in-out;
+    margin: 0;
+    /*padding: 0;*/
+    /*font-size: 16px;*/
+    /*font-weight: 100;*/
+    /*background: #ececec;*/
+    /*padding: 20px 60px;*/
+    /*border-radius: 2px;*/
+}
+.photo_link:hover>.about_photo_link{
+    opacity: 1;
+    transition: .2s ease-in-out;
+}
+
+.about_photo_link{
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    min-width: 270px;
+    min-height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.about_photo_link>h1{
+    /*text-align: center;*/
+    font-weight: 100;
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+.about_photo_link>p{
+    /*text-align: center;*/
+    font-weight: 100;
+    font-size: 18px;
+    margin: 0 0 30px 0;
+}
+.more_photo_info{
+    /*padding: 10px 20px;*/
+    margin: 0 0 54px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 162px;
+    min-height: 42px;
+    background: #50c3dc;
+    font-size: 20px;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+.more_photo_info:hover{
+    background: #2ca5e0;
+    transition: .2s ease-in-out;
+}
+
+.photo_card_headline{
+    color: #fff;
+    opacity: 1;
+    transition: .2s ease-in-out;
+    font-family: "Comfortaa";
+    letter-spacing: 8px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.photo_link:hover>.photo_card_headline{
+    color: #fff;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+.second_photo_link{
+    background: #000;
+    background: url("../imgs/portrait-example.png");
+    background-size: cover;
+}
+.third_photo_link{
+    background: #000;
+    background: url("../imgs/archit-example.png");
+    background-size: cover;
+}
+.forth_photo_link{
+    background: #000;
+    background: url("../imgs/dynamics-example.png");
+    background-size: cover;
 }
 
 @media screen and (min-width: 720px) and (max-width: 1079px) and (orientation: portrait){
@@ -294,7 +452,7 @@ body{
     .fb_link:hover {
         color: #334d92;
     }
-    .inst_link:hover{
+    .nvlp_link:hover{
         color: #333;
     }
     .tlgrm_link:hover{
@@ -304,7 +462,6 @@ body{
         color: #35a3ea;
     }
 }
-
 
 @media screen and (min-width: 1080px) and (orientation: portrait){
 
@@ -456,7 +613,7 @@ body{
     .fb_link:hover {
         color: #334d92;
     }
-    .inst_link:hover{
+    .nvlp_link:hover{
         color: #333;
     }
     .tlgrm_link:hover{
