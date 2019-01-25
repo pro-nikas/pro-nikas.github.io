@@ -43,5 +43,6 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
     document.write('<meta name="viewport" content="initial-scale= ' + 1 / dpt + ', maximum-scale= ' + 1 / dpt + ', minimum-scale= ' + 1 / dpt + '">');
 
     // window.devicePixelRatio = dpt/dpt;
-    alert(dpt);
+    alert('native dpt (ignore this text) ' + dpt);
+    alert('artificial dpt (ignore this text) ' + 1 / dpt);
 };
