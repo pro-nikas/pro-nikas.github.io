@@ -39,7 +39,9 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
 
 
     // document.write('<meta name="viewport" content="width=' + widthM+ ', height=' + widthH + '">');
+    // document.write('<meta name="viewport" content="initial-scale= ' + 1 / dpt +' ">');
+    document.write('<meta name="viewport" content="initial-scale= ' + 1 / dpt + ', maximum-scale= ' + 1 / dpt + ', minimum-scale= ' + 1 / dpt + '">');
 
-    window.devicePixelRatio = dpt/dpt;
-    alert(window.devicePixelRatio)
+    // window.devicePixelRatio = dpt/dpt;
+    alert(dpt);
 };
