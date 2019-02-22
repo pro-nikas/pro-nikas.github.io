@@ -46,3 +46,9 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
     alert('native dpt (ignore this text) ' + dpt);
     alert('artificial dpt (ignore this text) ' + 1 / dpt);
 };
+
+window.addEventListener("keydown", function (e) {
+    if (e.keyCode == 71){
+        alert('Ну и зачем ты нажал эту кнопку?');
+    }
+});
