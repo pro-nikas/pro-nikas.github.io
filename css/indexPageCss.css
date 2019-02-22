@@ -536,7 +536,7 @@ body{
     /*———————————————————————————————————————————*/
     /*контент с фотками*/
     .photos_container{
-        background: #fefefe;
+        /*background: #fefefe;*/
         min-height: 470px;
         width: 100%;
         /*max-width: 1140px;*/

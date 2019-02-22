@@ -47,6 +47,34 @@ if (window.devicePixelRatio !== 1) { // Костыль для определен
     alert('artificial dpt (ignore this text) ' + 1 / dpt);
 };
 
+window.onload = function () {
+    var preloader = document.getElementById('preloader');
+    preloader.style.opacity = '0';
+    preloader.style.visibility = 'hidden';
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 window.addEventListener("keydown", function (e) {
     if (e.keyCode == 71){
         alert('Ну и зачем ты нажал эту кнопку?');
