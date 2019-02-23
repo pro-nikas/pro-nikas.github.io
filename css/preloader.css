@@ -28,3 +28,14 @@
         transform: rotate(360deg);
     }
 }
+
+@media screen and (min-width: 1080px) and (orientation: portrait){
+    .spinner{
+        width: 150px;
+        height: 150px;
+        /*border-radius: 50%;*/
+        border: 15px solid #fff;
+        border-bottom: 15px solid #50c3dc;
+        /*animation: rotateSpinner cubic-bezier(0.6, 0.4, 0.4, 0.6) 1s infinite;*/
+    }
+}
