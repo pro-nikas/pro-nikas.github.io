@@ -653,7 +653,7 @@ body{
         /*background: url("../imgs/dynamics-example.png");*/
         /*background-size: cover;*/
     /*}*/
-
+    /*дополнительная секция с некоторой информацией*/
     .other_information_container{
         /*width: 100%;*/
         /*max-width: 1140px;*/
@@ -687,7 +687,7 @@ body{
         height: 6px;
         width: 60px;
         /*max-width: 40px;*/
-        border-radius: 4px;
+        border-radius: 2px;
         /*background: #50c3dc;*/
         /*align-self: flex-start;*/
         margin: 30px 0 0 20px;
@@ -717,29 +717,29 @@ body{
 
     /*футер*/
     #footer{
-        width: 100%;
+        /*width: 100%;*/
         min-height: 100px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
+        /*background: #fff;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
     }
     .footer_container{
-        max-width: 1140px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-family: "Comfortaa";
+        /*max-width: 1140px;*/
+        /*width: 100%;*/
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: space-between;*/
+        /*font-family: "Comfortaa";*/
         flex-direction: column;
     }
     .author{
-        font-size: 12px;
-        width: 400px;
+        /*font-size: 12px;*/
+        /*width: 400px;*/
         display: none;
     }
-    .author_link:hover{
-        text-decoration: underline;
-    }
+    /*.author_link:hover{*/
+        /*text-decoration: underline;*/
+    /*}*/
 
     .site_year{
         font-size: 20px;
@@ -748,7 +748,7 @@ body{
     .disclaimer{
         font-size: 14px;
         text-align: center;
-        width: 100%;
+        /*width: 100%;*/
         margin: 0 0 20px 0;
     }
 }
@@ -763,7 +763,7 @@ body{
         box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
     }
     .header_container{
-        padding: 0 0 0 35px;
+        padding: 0 0 0 30px;
         max-width: 100%;
     }
     .logo_link{
@@ -1010,6 +1010,105 @@ body{
         font-size: 45px;
         /*color: #fff;*/
         /*transition: .2s ease-in-out;*/
+    }
+
+    /*дополнительная секция с некоторой информацией*/
+    .other_information_container{
+        /*width: 100%;*/
+        /*max-width: 1140px;*/
+        /*min-height: 400px;*/
+        /*background: #fcfcfc;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        /*align-items: center;*/
+        flex-direction: column;
+        /*font-family: Comfortaa;*/
+    }
+    .about_me{
+        /*width: 100%;*/
+        max-width: 100%;
+        /*background: #f5f5f5;*/
+        /*min-height: 400px;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+        /*align-items: flex-start;*/
+    }
+    .about_me_headline{
+        /*font-weight: 100;*/
+        font-size: 54px;
+        margin: 60px 0 0 30px;
+    }
+    .about_me_hr{
+        /*width: 30px;*/
+        /*color: #50c3dc;*/
+        /*border: 0;*/
+        height: 9px;
+        width: 90px;
+        /*max-width: 40px;*/
+        border-radius: 3px;
+        /*background: #50c3dc;*/
+        /*align-self: flex-start;*/
+        margin: 45px 0 0 30px;
+    }
+    .main_name{
+        margin: 45px 0 0 30px;
+        font-size: 45px;
+    }
+    .main_info{
+        margin: 45px 0 0 30px;
+        font-size: 36px;
+        line-height: 48px;
+        width: 93%;
+    }
+    .tel_and_mail{
+        font-size: 27px;
+        line-height: 42px;
+        margin: 60px 0 60px 30px;
+    }
+
+
+
+
+    .price_calculator{
+        display: none;
+    }
+
+    /*футер*/
+    #footer{
+        /*width: 100%;*/
+        min-height: 150px;
+        /*background: #fff;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
+    }
+    .footer_container{
+        /*max-width: 1140px;*/
+        /*width: 100%;*/
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: space-between;*/
+        /*font-family: "Comfortaa";*/
+        flex-direction: column;
+    }
+    .author{
+        /*font-size: 12px;*/
+        /*width: 400px;*/
+        display: none;
+    }
+    /*.author_link:hover{*/
+    /*text-decoration: underline;*/
+    /*}*/
+
+    .site_year{
+        font-size: 30px;
+        margin: 30px 0 0 0;
+    }
+    .disclaimer{
+        font-size: 21px;
+        text-align: center;
+        width: 100%;
+        margin: 0 0 30px 0;
     }
 }
 
