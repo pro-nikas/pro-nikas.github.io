@@ -52,6 +52,14 @@ body{
 }
 #side_menu{
     display: none;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+    transition: .2s ease-in-out;
+    right: 100%;
+    background: #fff;
+
 }
 /*———————————————————————————————————————————*/
 /*контент*/
@@ -376,9 +384,9 @@ body{
 
 @media screen and (min-width: 720px) and (max-width: 1079px) and (orientation: portrait){
 
-    body{
+    /*body{*/
         /*background: #fff;*/
-    }
+    /*}*/
     #header{
         min-height: 100px;
         box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
@@ -416,18 +424,6 @@ body{
     }
     .menu_link_rotated_nd{
         transform: translateY(-12.5px) rotate(-45deg);
-    }
-    #side_menu {
-        width: calc(100% - 100px);
-        height: 100%;
-        background: #28a745;
-        position: fixed;
-        right: 100%;
-        transition: .2s ease-in-out;
-        box-shadow: 0 0 0 0;
-        z-index: 100;
-        overflow: hidden;
-        display: flex;
     }
     /*контент*/
     #content{
@@ -707,10 +703,6 @@ body{
         line-height: 28px;
         margin: 40px 0 40px 20px;
     }
-
-
-
-
     .price_calculator{
         display: none;
     }
@@ -750,6 +742,16 @@ body{
         text-align: center;
         /*width: 100%;*/
         margin: 0 0 20px 0;
+    }
+
+    /*боковое меню*/
+    #side_menu {
+        width: calc(100% - 101px);
+        box-shadow: 0 0 0 0;
+        display: flex;
+        border-right: 1px solid #0000001a;
+
+
     }
 }
 
