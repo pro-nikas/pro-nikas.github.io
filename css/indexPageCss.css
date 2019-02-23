@@ -251,7 +251,7 @@ body{
 }
 
 .first_photo_link{
-    background: url("../imgs/nature-example.jpg");
+    background: url("../imgs/nature-example.png");
     background-size: cover;
 }
 .second_photo_link{
@@ -357,6 +357,7 @@ body{
 }
 .author_link:hover{
     text-decoration: underline;
+    color: #50c3dc;
 }
 
 .site_year{
@@ -676,15 +677,15 @@ body{
     }
     .about_me_headline{
         /*font-weight: 100;*/
-        font-size: 40px;
+        font-size: 38px;
         margin: 40px 0 0 20px;
     }
     .about_me_hr{
         /*width: 30px;*/
         /*color: #50c3dc;*/
         /*border: 0;*/
-        height: 10px;
-        width: 150px;
+        height: 6px;
+        width: 60px;
         /*max-width: 40px;*/
         border-radius: 4px;
         /*background: #50c3dc;*/
@@ -698,13 +699,13 @@ body{
     .main_info{
         margin: 30px 0 0 20px;
         font-size: 28px;
-        line-height: 40px;
+        line-height: 32px;
         width: 92%;
     }
     .tel_and_mail{
-        font-size: 24px;
+        font-size: 20px;
         line-height: 28px;
-        margin: 40px 0 0 20px;
+        margin: 40px 0 40px 20px;
     }
 
 
