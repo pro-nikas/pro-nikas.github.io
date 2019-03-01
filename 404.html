@@ -2,21 +2,80 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        h1{
-            font-size: 6vh;
-            text-align: center;
-        }
-    </style>
+    <title>pro.nikas</title>
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/404PageCss.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
-    <h1>ошибка 404 :(</h1>
-    <h1>похоже, вы обратились к несущесвующей странице</h1>
-    <h1>проверьте адрес, на который заходите</h1>
-    <h1>также вы можете перейти на <br> главную <a href="index.html">страницу</a> сайта pro-nikas.github.io</h1>
+
+<div id="preloader">
+
+    <div class="spinner"></div>
+
+</div>
+
+<div id="wrapper">
+
+    <div id="header">
+
+        <div class="header_container">
+
+            <a href="https://pro-nikas.github.io/" class="logo_link">pro.nikas</a>
+
+        </div>
+
+    </div>
+
+    <div id="content">
+
+        <div class="information_container">
+
+            <div class="information_main_pic">
+                <div class="main_pic"></div>
+            </div>
+
+            <div class="information_main_text">
+
+                <h1 class="main_headline">Ошибка 404</h1>
+
+                <hr class="main_hr">
+
+                <p class="main_text">Похоже, вы пытаетесь обратиться к несуществующей странице. <br> Вы можете перейти на главную страницу по
+                    <a class="from404page" href="https://pro-nikas.github.io/">ссылке</a></p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <hr class="all_page_width_border">
+
+
+    <div id="footer">
+
+        <div class="footer_container">
+
+            <p class="author">
+                <a href="https://vk.com/nikaprokopenko" class="author_link" target="_blank">Nika Prokopenko</a>
+                /
+                <a href="https://vk.com/id245418832" class="author_link" target="_blank">Grushev</a>
+            </p>
+
+            <p class="site_year">pro.nikas, 2019</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/mainJs.js"></script>
+
 </body>
 </html>
