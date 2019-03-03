@@ -12,6 +12,7 @@ function sideMenuTweak () {
         linkLine2.classList.add('menu_link_rotated_nd');
     }
     else{
+        sideMenu.style.right = '100%';
         linkLine1.classList.remove('menu_link_rotated_st');
         linkLine2.classList.remove('menu_link_rotated_nd');
     }
