@@ -4,13 +4,51 @@
 ul.navigation>li:nth-child(1)>a{
     color: #50c3dc;
 }
-
 .all_page_width_border{
     width: 100%;
     border: 0;
     height: 1px;
     background: #0000001a;
     margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.big_photo_window{
+    z-index: 150;
+    width: 1140px;
+    height: 690px;
+    position: fixed;
+    background-size: cover;
+    align-self: center;
+    justify-content: flex-end;
+    font-family: Comfortaa;
+    display: none;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 1920px) and (orientation: landscape){
+    .big_photo_window{
+        margin: 140px 0 0 0;
+        width: 1140px;
+        height: 690px;
+    }
+}
+@media screen and (max-width: 1366px) and (orientation: landscape){
+    .big_photo_window{
+        margin: 80px 0 0 0;
+        width: 1040px;
+        height: 590px;
+    }
+}
+.close_big_photo_window{
+    opacity: .8;
+    color: #fff;
+    margin: 10px;
+    display: table;
+}
+.close_big_photo_window:hover{
+    opacity: 1;
 }
 #header{
     min-height: 80px;
@@ -97,32 +135,27 @@ ul.navigation>li:nth-child(1)>a{
     align-items: center;
     justify-content: flex-start;
 }
+.photo_block:nth-child(1)>div{
+    background-image: url("../imgs/nature-1-2280x1380.jpg");
+}
+.photo_block:nth-child(2)>div{
+    background-image: url("../imgs/nature-2-2280x1380.jpg");
+}
+.photo_block:nth-child(3)>div{
+    background-image: url("../imgs/nature-3-2280x1380.jpg");
+}
 .photo_block_img{
     width: 760px;
     height: 460px;
-    background-size: cover;
     margin: 30px 0 0 0;
-    color: #fff;
+    /*color: #fff;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
-/*.photo_block_img>a{*/
-    /*opacity: 0;*/
-    /*transition: .2s;*/
-/*}*/
-/*.photo_block_img:hover>a{*/
-    /*opacity: 1;*/
-    /*cursor: zoom-in;*/
-/*}*/
-.photo_block:nth-child(1)>div{
-    background: url("../imgs/nature-1-760x460.jpg");
-}
-.photo_block:nth-child(2)>div{
-    background: url("../imgs/nature-2-760x460.jpg");
-}
-.photo_block:nth-child(3)>div{
-    background: url("../imgs/nature-3-760x460.jpg");
+.photo_block_img:hover{
+    cursor: zoom-in;
 }
 .photo_block_comment{
     text-align: center;
@@ -134,17 +167,18 @@ ul.navigation>li:nth-child(1)>a{
 
 
 
-.return_back_button{
+.footer_buttons{
     width: 100%;
     max-width: 1140px;
     min-height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.return_back_link{
+.footer_button_link{
     font-size: 14px;
 }
-.return_back_link:hover{
+.footer_button_link:hover{
     text-decoration: underline;
     color: #50c3dc;
 }
@@ -220,16 +254,98 @@ ul.navigation>li:nth-child(1)>a{
     .menu_link_rotated_nd{
         transform: translateY(-12.5px) rotate(-45deg);
     }
+
     #content{
         padding: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Comfortaa;
+    }
+    .content_photos_head{
+        min-height: 80px;
+        /*display: flex;*/
+        /*justify-content: flex-start;*/
+        /*align-items: center;*/
+        width: 100%;
+        /*padding: 0 0 0 20px;*/
+        /*max-width: 1140px;*/
+        background: #fcfcfc;
+    }
+    .content_photos_headline{
+        font-weight: 100;
+        font-size: 18px;
+        margin:  0 0 0 20px;
+    }
+    .photos{
+        /*width: 100%;*/
+        /*max-width: 1140px;*/
+        /*background: #fff;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
+        /*margin: 0 0 0px 0;*/
+    }
+    .photo_block{
+        display: flex;
+        flex-direction: column;
+        max-width: 1140px;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .photo_block:nth-child(1)>div{
+        background-image: url("../imgs/nature-1-2280x1380.jpg");
+    }
+    .photo_block:nth-child(2)>div{
+        background-image: url("../imgs/nature-2-2280x1380.jpg");
+    }
+    .photo_block:nth-child(3)>div{
+        background-image: url("../imgs/nature-3-2280x1380.jpg");
+    }
+    .photo_block_img{
+        width: 100%;
+        margin: 0;
+        /*color: #fff;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        height: 500px;
+        background-position: center;
+    }
+    .photo_block_img:hover{
+        cursor: zoom-in;
+    }
+    .photo_block_comment{
+        text-align: center;
+        margin: 30px 0 40px 0;
+        font-size: 18px;
+        color: #777;
     }
 
 
 
 
+    .footer_buttons{
+        /*width: 100%;*/
+        /*max-width: 1140px;*/
+        /*min-height: 60px;*/
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: space-between;*/
+    }
+    .footer_button_link{
+        font-size: 16px;
+        margin: 0 20px;
+    }
+    .footer_button_link:hover{
+        text-decoration: underline;
+        color: #50c3dc;
+    }
 
 
-    
     #footer{
         min-height: 100px;
     }

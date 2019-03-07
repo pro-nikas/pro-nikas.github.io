@@ -60,6 +60,10 @@
 
     </div>
 
+    <div class="big_photo_window">
+        <a href="javascript:" class="close_big_photo_window" onclick="showBigPhoto();">Закрыть</a>
+    </div>
+
     <div id="wrapper">
 
         <div id="header">
@@ -76,7 +80,6 @@
                 </ul>
 
                 <a href="javascript:" class="side_menu_link" onclick="sideMenuTweak();">
-
                     <span class="menu_link_line menu_link_line_st"></span>
                     <span class="menu_link_line menu_link_line_nd"></span>
                 </a>
@@ -99,19 +102,17 @@
             <div class="photos">
 
                 <div class="photo_block">
-                    <div class="photo_block_img">
-                        <a href="javascript:">Увеличить</a>
-                    </div>
+                    <div class="photo_block_img" onclick="showBigPhoto(1);"></div>
                     <p class="photo_block_comment">розовые листики</p>
                 </div>
 
                 <div class="photo_block">
-                    <div class="photo_block_img"></div>
+                    <div class="photo_block_img" onclick="showBigPhoto(2);"></div>
                     <p class="photo_block_comment">зеленые листики</p>
                 </div>
 
                 <div class="photo_block">
-                    <div class="photo_block_img"></div>
+                    <div class="photo_block_img" onclick="showBigPhoto(3);"></div>
                     <p class="photo_block_comment">какие-то листики</p>
                 </div>
 
@@ -122,8 +123,9 @@
 
             <hr class="all_page_width_border">
 
-            <div class="return_back_button">
-                <a href="https://pro-nikas.github.io/" class="return_back_link">← вернуться на главную</a>
+            <div class="footer_buttons">
+                <a href="https://pro-nikas.github.io/" class="footer_button_link">← вернуться на главную</a>
+                <a href="https://www.instagram.com/pro.nikas/" class="footer_button_link">больше фото в моем инстраграмме →</a>
             </div>
 
         </div>
