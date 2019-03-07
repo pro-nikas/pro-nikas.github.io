@@ -274,7 +274,7 @@ body{
     }
     .content_photos_headline{
         font-weight: 100;
-        font-size: 18px;
+        font-size: 20px;
         margin:  0 0 0 20px;
     }
     .photos{
@@ -321,7 +321,7 @@ body{
     .photo_block_comment{
         text-align: center;
         margin: 30px 0 40px 0;
-        font-size: 18px;
+        font-size: 20px;
         color: #777;
     }
 
@@ -337,7 +337,7 @@ body{
         /*justify-content: space-between;*/
     }
     .footer_button_link{
-        font-size: 16px;
+        font-size: 18px;
         margin: 0 20px;
     }
     .footer_button_link:hover{
