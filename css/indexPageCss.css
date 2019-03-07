@@ -726,12 +726,12 @@
     }
     .main_info{
         margin: 45px 0 0 30px;
-        font-size: 36px;
-        line-height: 48px;
+        font-size: 33px;
+        line-height: 54px;
         width: 93%;
     }
     .tel_and_mail{
-        font-size: 27px;
+        font-size: 24px;
         line-height: 42px;
         margin: 60px 0 60px 30px;
     }
