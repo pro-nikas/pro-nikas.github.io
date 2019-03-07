@@ -61,15 +61,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="7398" />
-          <entry key="html" value="4557" />
+          <entry key="css" value="7427" />
+          <entry key="html" value="4566" />
           <entry key="js" value="1630" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="7398" />
-          <entry key="HTML" value="4557" />
+          <entry key="CSS" value="7427" />
+          <entry key="HTML" value="4566" />
           <entry key="JavaScript" value="1630" />
         </counts>
       </usages-collector>
@@ -77,14 +77,14 @@
         <counts>
           <entry key="css" value="17" />
           <entry key="gitattributes" value="1" />
-          <entry key="html" value="7" />
+          <entry key="html" value="8" />
           <entry key="js" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="17" />
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="8" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -106,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/naturePhotosPageCss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="333" column="24" lean-forward="true" selection-start-line="333" selection-start-column="24" selection-end-line="333" selection-end-column="24" />
+            <state relative-caret-position="732">
+              <caret line="322" column="17" selection-start-line="322" selection-start-column="17" selection-end-line="322" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="143" column="63" selection-start-line="143" selection-start-column="63" selection-end-line="143" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -147,10 +156,10 @@
         <option value="$PROJECT_DIR$/css/indexPageCss.css" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/css/404PageCss.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/naturePhotosPage.html" />
         <option value="$PROJECT_DIR$/js/mainJs.js" />
         <option value="$PROJECT_DIR$/css/naturePhotosPageCss.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -253,12 +262,12 @@
       <workItem from="1551461971337" duration="4859000" />
       <workItem from="1551527522095" duration="1485000" />
       <workItem from="1551895447048" duration="2971000" />
-      <workItem from="1551974415687" duration="5298000" />
+      <workItem from="1551974415687" duration="5746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95687000" />
+    <option name="totallyTimeSpent" value="96135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -330,13 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/naturePhotosPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -357,8 +359,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/naturePhotosPageCss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="333" column="24" lean-forward="true" selection-start-line="333" selection-start-column="24" selection-end-line="333" selection-end-column="24" />
+        <state relative-caret-position="732">
+          <caret line="322" column="17" selection-start-line="322" selection-start-column="17" selection-end-line="322" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="143" column="63" selection-start-line="143" selection-start-column="63" selection-end-line="143" selection-end-column="63" />
         </state>
       </provider>
     </entry>
