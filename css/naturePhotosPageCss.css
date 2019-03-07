@@ -274,7 +274,7 @@ body{
     }
     .content_photos_headline{
         font-weight: 100;
-        font-size: 20px;
+        font-size: 22px;
         margin:  0 0 0 20px;
     }
     .photos{
@@ -331,7 +331,7 @@ body{
     .footer_buttons{
         /*width: 100%;*/
         /*max-width: 1140px;*/
-        /*min-height: 60px;*/
+        min-height: 80px;
         /*display: flex;*/
         /*align-items: center;*/
         /*justify-content: space-between;*/
