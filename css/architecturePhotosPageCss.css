@@ -1,7 +1,7 @@
-.side_menu_content_link:nth-child(3)>a{
+.side_menu_content_link:nth-child(4)>a{
     color: #50c3dc;
 }
-ul.navigation>li:nth-child(2)>a{
+ul.navigation>li:nth-child(3)>a{
     color: #50c3dc;
 }
 .all_page_width_border{
@@ -132,13 +132,13 @@ body{
     justify-content: flex-start;
 }
 .photo_block:nth-child(1)>div{
-    background-image: url("../imgs/people-1-2280x1380.jpg");
+    background-image: url("../imgs/architecture-1-2280x1380.jpg");
 }
 .photo_block:nth-child(2)>div{
-    background-image: url("../imgs/people-2-2280x1380.jpg");
+    background-image: url("../imgs/architecture-2-2280x1380.jpg");
 }
 .photo_block:nth-child(3)>div{
-    background-image: url("../imgs/people-3-2280x1380.jpg");
+    background-image: url("../imgs/architecture-3-2280x1380.jpg");
 }
 .photo_block_img{
     width: 760px;
@@ -148,6 +148,7 @@ body{
     justify-content: center;
     align-items: center;
     background-size: cover;
+
 }
 .photo_block_img:hover{
     cursor: zoom-in;
@@ -260,20 +261,21 @@ body{
         font-size: 22px;
         margin:  0 0 0 20px;
     }
-    .photo_block:nth-child(1)>div{
-        background-image: url("../imgs/people-1-2280x1380.jpg");
-    }
-    .photo_block:nth-child(2)>div{
-        background-image: url("../imgs/people-2-2280x1380.jpg");
-    }
-    .photo_block:nth-child(3)>div{
-        background-image: url("../imgs/people-3-2280x1380.jpg");
-    }
+    /*.photo_block:nth-child(1)>div{*/
+        /*background-image: url("../imgs/nature-1-2280x1380.jpg");*/
+    /*}*/
+    /*.photo_block:nth-child(2)>div{*/
+        /*background-image: url("../imgs/nature-2-2280x1380.jpg");*/
+    /*}*/
+    /*.photo_block:nth-child(3)>div{*/
+        /*background-image: url("../imgs/nature-3-2280x1380.jpg");*/
+    /*}*/
     .photo_block_img{
         width: 100%;
         margin: 0;
         height: 500px;
         background-position: center;
+
     }
     .photo_block_comment{
         margin: 30px 0 40px 0;
@@ -544,15 +546,15 @@ body{
         font-size: 33px;
         margin:  0 0 0 30px;
     }
-    .photo_block:nth-child(1)>div{
-        background-image: url("../imgs/people-1-2280x1380.jpg");
-    }
-    .photo_block:nth-child(2)>div{
-        background-image: url("../imgs/people-2-2280x1380.jpg");
-    }
-    .photo_block:nth-child(3)>div{
-        background-image: url("../imgs/people-3-2280x1380.jpg");
-    }
+    /*.photo_block:nth-child(1)>div{*/
+        /*background-image: url("../imgs/nature-1-2280x1380.jpg");*/
+    /*}*/
+    /*.photo_block:nth-child(2)>div{*/
+        /*background-image: url("../imgs/nature-2-2280x1380.jpg");*/
+    /*}*/
+    /*.photo_block:nth-child(3)>div{*/
+        /*background-image: url("../imgs/nature-3-2280x1380.jpg");*/
+    /*}*/
     .photo_block_img{
         width: 100%;
         margin: 0;

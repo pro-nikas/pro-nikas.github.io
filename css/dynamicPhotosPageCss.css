@@ -1,7 +1,7 @@
-.side_menu_content_link:nth-child(3)>a{
+.side_menu_content_link:nth-child(5)>a{
     color: #50c3dc;
 }
-ul.navigation>li:nth-child(2)>a{
+ul.navigation>li:nth-child(4)>a{
     color: #50c3dc;
 }
 .all_page_width_border{
@@ -132,13 +132,13 @@ body{
     justify-content: flex-start;
 }
 .photo_block:nth-child(1)>div{
-    background-image: url("../imgs/people-1-2280x1380.jpg");
+    background-image: url("../imgs/dynamic-1-2280x1380.jpg");
 }
 .photo_block:nth-child(2)>div{
-    background-image: url("../imgs/people-2-2280x1380.jpg");
+    background-image: url("../imgs/dynamic-2-2280x1380.jpg");
 }
 .photo_block:nth-child(3)>div{
-    background-image: url("../imgs/people-3-2280x1380.jpg");
+    background-image: url("../imgs/dynamic-3-2280x1380.jpg");
 }
 .photo_block_img{
     width: 760px;
@@ -261,13 +261,13 @@ body{
         margin:  0 0 0 20px;
     }
     .photo_block:nth-child(1)>div{
-        background-image: url("../imgs/people-1-2280x1380.jpg");
+        background-image: url("../imgs/dynamic-1-2280x1380.jpg");
     }
     .photo_block:nth-child(2)>div{
-        background-image: url("../imgs/people-2-2280x1380.jpg");
+        background-image: url("../imgs/dynamic-2-2280x1380.jpg");
     }
     .photo_block:nth-child(3)>div{
-        background-image: url("../imgs/people-3-2280x1380.jpg");
+        background-image: url("../imgs/dynamic-3-2280x1380.jpg");
     }
     .photo_block_img{
         width: 100%;
@@ -545,13 +545,13 @@ body{
         margin:  0 0 0 30px;
     }
     .photo_block:nth-child(1)>div{
-        background-image: url("../imgs/people-1-2280x1380.jpg");
+        background-image: url("../imgs/dynamic-1-2280x1380.jpg");
     }
     .photo_block:nth-child(2)>div{
-        background-image: url("../imgs/people-2-2280x1380.jpg");
+        background-image: url("../imgs/dynamic-2-2280x1380.jpg");
     }
     .photo_block:nth-child(3)>div{
-        background-image: url("../imgs/people-3-2280x1380.jpg");
+        background-image: url("../imgs/dynamic-3-2280x1380.jpg");
     }
     .photo_block_img{
         width: 100%;
