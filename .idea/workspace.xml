@@ -62,14 +62,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="7546" />
-          <entry key="html" value="4954" />
+          <entry key="html" value="4968" />
           <entry key="js" value="1689" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="7546" />
-          <entry key="HTML" value="4954" />
+          <entry key="HTML" value="4968" />
           <entry key="JavaScript" value="1689" />
         </counts>
       </usages-collector>
@@ -77,14 +77,14 @@
         <counts>
           <entry key="css" value="28" />
           <entry key="gitattributes" value="1" />
-          <entry key="html" value="28" />
+          <entry key="html" value="29" />
           <entry key="js" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="28" />
-          <entry key="HTML" value="28" />
+          <entry key="HTML" value="29" />
           <entry key="JavaScript" value="20" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -94,41 +94,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/html/naturePhotosPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="176" column="64" selection-start-line="176" selection-start-column="64" selection-end-line="176" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/dynamicPhotosPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="93" column="56" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
+            <state relative-caret-position="390">
+              <caret line="30" column="82" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/dynamicPhotosJs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/dynamicPhotosPageCss.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -164,12 +136,12 @@
         <option value="$PROJECT_DIR$/css/architecturePhotosPageCss.css" />
         <option value="$PROJECT_DIR$/css/peoplePhotosPageCss.css" />
         <option value="$PROJECT_DIR$/html/architecturePhotosPage.html" />
-        <option value="$PROJECT_DIR$/html/naturePhotosPage.html" />
         <option value="$PROJECT_DIR$/html/peoplePhotosPage.html" />
         <option value="$PROJECT_DIR$/js/dynamicPhotosJs.js" />
         <option value="$PROJECT_DIR$/css/dynamicPhotosPageCss.css" />
         <option value="$PROJECT_DIR$/html/dynamicPhotosPage.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/html/naturePhotosPage.html" />
       </list>
     </option>
   </component>
@@ -275,12 +247,12 @@
       <workItem from="1551974415687" duration="7468000" />
       <workItem from="1552233229800" duration="1560000" />
       <workItem from="1552325873312" duration="1469000" />
-      <workItem from="1552673137793" duration="3455000" />
+      <workItem from="1552673137793" duration="3729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104341000" />
+    <option name="totallyTimeSpent" value="104615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -380,17 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/naturePhotosPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/peoplePhotosPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-495">
@@ -423,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dynamicPhotosJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/architecturePhotosPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -438,6 +392,13 @@
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="176" column="64" selection-start-line="176" selection-start-column="64" selection-end-line="176" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -452,6 +413,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/dynamicPhotosJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/dynamicPhotosPageCss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -459,10 +427,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/html/naturePhotosPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="176" column="64" selection-start-line="176" selection-start-column="64" selection-end-line="176" selection-end-column="64" />
+        <state relative-caret-position="390">
+          <caret line="30" column="82" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
